@@ -1,8 +1,9 @@
 {
   "dependencies": {
     "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongodb": "6.16"
+    "pg": "^8.16.0",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3"
   },
   "name": "sicermat",
   "version": "1.0.0",

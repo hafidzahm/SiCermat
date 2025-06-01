@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "6.16"
+  },
+  "name": "sicermat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafidzahm/SiCermat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafidzahm/SiCermat/issues"
+  },
+  "homepage": "https://github.com/hafidzahm/SiCermat#readme",
+  "description": ""
+}

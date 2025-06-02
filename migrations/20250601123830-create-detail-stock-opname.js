@@ -12,10 +12,22 @@ module.exports = {
       StockOpnameId: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "StockOpnames",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       ProductId: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "Products",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       systemStock: {
         type: Sequelize.INTEGER,

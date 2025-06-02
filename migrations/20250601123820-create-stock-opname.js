@@ -12,10 +12,22 @@ module.exports = {
       UserId: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "Users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       GroupStockOpnameId: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        references: {
+          model: "GroupStockOpnames",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       startedAt: {
         type: Sequelize.DATE,

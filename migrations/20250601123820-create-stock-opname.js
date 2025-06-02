@@ -9,11 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      EmployeeId: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-      GroupStockOpname: {
+      UserId: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
